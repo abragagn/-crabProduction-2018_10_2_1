@@ -4,7 +4,7 @@ config = Configuration()
 config.section_('General')
 
 ###### set here a name for this task
-config.General.requestName = 'Charmonium_Run2018D-PromptReco-v2_MINIAOD'
+config.General.requestName = 'Charmonium_Run2018D-PromptReco-v2_321004-321004'
 #request name is the name of the folder where crab log is saved
 
 config.General.workArea = 'crab3_projects'
@@ -25,7 +25,8 @@ config.section_('Data')
 config.Data.inputDataset = '/Charmonium/Run2018D-PromptReco-v2/MINIAOD'
 
 ###### specify here the JSON file to use
-config.Data.lumiMask = 'https://cms-service-dqm.web.cern.ch/cms-service-dqm/CAF/certification/Collisions18/13TeV/PromptReco/Cert_314472-321461_13TeV_PromptReco_Collisions18_JSON.txt'
+config.Data.lumiMask = 'https://cms-service-dqm.web.cern.ch/cms-service-dqm/CAF/certification/Collisions18/13TeV/PromptReco/Cert_314472-325175_13TeV_PromptReco_Collisions18_JSON.txt'
+config.Data.runRange = '321004-321004'
 
 config.Data.splitting = 'FileBased'
 config.Data.unitsPerJob = 1
